@@ -10,6 +10,10 @@ No unreleased changes.
 
 ### Added
 
+- Issue #52: draft-концепция `research/mango/taxonomy-concept-2026-05.md`
+  для Unified Capability Taxonomy Mango: обзор применимых стандартов,
+  мета-модель capability, mapping реальных фич, процесс нормализации,
+  интерфейс продуктовых команд, метрики, план пилота и риски.
 - Issue #49: active directory indexes for `projects/`, `research/`,
   `education/` and `frameworks/` after cleanup of legacy `-old` inputs.
 - Issue #49: active Mango research artifacts in `research/mango/`
