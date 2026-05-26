@@ -13,6 +13,10 @@ All notable repository governance changes are documented here.
 - Repository structure validation в `tools/validate-repository-structure.sh`.
 - Active documentation для Anti-Inflation principle: артефакт создается только
   когда снижает операционную боль.
+- `standards/PRODUCT_PROFILE.md` (issue #29): профиль для продуктовых проектов
+  с обязательными артефактами, шаблоном `PRODUCT_VISION.md` и матрицей
+  адаптации по стадиям MVP / Pilot / Production; зарегистрирован в реестре
+  standards и в structure validation.
 - `standards/TEAM_CONTRACT.md` как шаблон и инструкция для создания
   project-level `CONTRIBUTING.md` и `AI_GOVERNANCE.md` в spoke-проектах.
 

@@ -39,6 +39,7 @@ is_active_file() {
     LICENSE | \
     standards/README.md | \
     standards/GLOSSARY.md | \
+    standards/PRODUCT_PROFILE.md | \
     standards/TEAM_CONTRACT.md | \
     governance/REPO_MODEL.md | \
     .github/ISSUE_TEMPLATE/task.yml | \
@@ -76,6 +77,7 @@ required_files=(
   "LICENSE"
   "standards/README.md"
   "standards/GLOSSARY.md"
+  "standards/PRODUCT_PROFILE.md"
   "standards/TEAM_CONTRACT.md"
   "governance/REPO_MODEL.md"
   ".github/ISSUE_TEMPLATE/task.yml"
@@ -148,6 +150,7 @@ require_text "standards/README.md" "| Стандарт | Статус | Где �
 require_text "standards/README.md" "Как пользоваться"
 require_text "standards/README.md" "TEAM_CONTRACT.md"
 require_text "standards/README.md" "standards/GLOSSARY.md"
+require_text "standards/README.md" "PRODUCT_PROFILE.md"
 
 require_text "standards/TEAM_CONTRACT.md" "status: canonical"
 require_text "standards/TEAM_CONTRACT.md" "version: 1.0"
@@ -185,6 +188,12 @@ require_text "standards/GLOSSARY.md" "Profile"
 require_text "standards/GLOSSARY.md" "Как использовать"
 require_text "standards/GLOSSARY.md" "Связи терминов"
 require_text "standards/GLOSSARY.md" "Источники"
+
+require_text "standards/PRODUCT_PROFILE.md" "status: canonical"
+require_text "standards/PRODUCT_PROFILE.md" "ai-generated: false"
+require_text "standards/PRODUCT_PROFILE.md" "PRODUCT_VISION.md"
+require_text "standards/PRODUCT_PROFILE.md" "Обязательные артефакты"
+require_text "standards/PRODUCT_PROFILE.md" "Метрики успеха"
 
 require_text "governance/REPO_MODEL.md" "Артефакт только при операционной боли"
 require_text "governance/REPO_MODEL.md" "Anti-Inflation"
