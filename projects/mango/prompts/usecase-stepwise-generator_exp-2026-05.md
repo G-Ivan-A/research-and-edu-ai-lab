@@ -145,6 +145,7 @@ Proposed → User Response → Final
 | `vats-ui` | `voice-ucaas.cloud-pbx`, `contact-center.agent-workspace` |
 | `outbound-campaign-service` | `contact-center.outbound-calling` |
 | `interaction-history-service` | `contact-center.agent-workspace`, `contact-center.deal-management` |
+| `script-guidance-service` | `contact-center.knowledge-base`, `contact-center.agent-workspace` |
 | `call-recording-service` | `voice-ucaas.call-recording` |
 | `crm-connector` | `platform.platform-integration` |
 | `webhook-api` | `platform.open-api` |
